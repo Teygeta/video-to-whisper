@@ -1,5 +1,9 @@
 ![image](https://github.com/user-attachments/assets/a2898cae-e0e0-496e-a3e9-a410b7e38e80)
 
+**The use of [yt-dlp](https://github.com/yt-dlp/yt-dlp) to download videos must comply with the legal and ethical guidelines of the platform hosting the video. It is prohibited to use this tool to download content for any unlawful purpose, including but not limited to copyright infringement, unauthorized redistribution, or exploitation of the content. Users are responsible for ensuring their actions are in compliance with relevant laws and platform terms of service. This tool should only be used for personal, educational, or lawful purposes!**
+
+--- 
+
 Before you begin, make sure you have the following installed:
 1. **Node.js** 
    Install Node.js from https://nodejs.org.
@@ -21,3 +25,7 @@ Make sure to replace your_api_key_here with the actual API key you copied in Ste
 ```bash
 npm dev
 ```
+
+## List of supported sites for download:
+https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md
+
