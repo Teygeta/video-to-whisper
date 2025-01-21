@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-zinc-900 text-zinc-50;
+}
+
+p {
+    @apply text-zinc-300;
+}
+
+.p-card{
+    @apply border border-zinc-800 !bg-[#1b1b21];
+}
+
+.p-panel {
+    border-radius: var(--p-card-border-radius) !important;
+    @apply !border-zinc-800 !bg-[#1b1b21];
+}
+
+.p-tablist-tab-list, .p-tab {
+    @apply !border-zinc-800;
+}
+
+.p-dialog {
+    @apply !border-zinc-800;
+}
+
+.p-tieredmenu {
+    @apply !border-zinc-800 !bg-transparent !backdrop-blur-sm;
+}
+
+.p-tieredmenu-submenu {
+    @apply !border-zinc-800;
+}
+
+.p-tieredmenu-separator, .p-tieredmenu-submenu-separator {
+    @apply !border-zinc-800;
+}
